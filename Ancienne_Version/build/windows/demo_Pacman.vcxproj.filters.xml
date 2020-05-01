@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="apps">
+      <UniqueIdentifier>{992B947C-8562-950D-2E4F-7B101A65110F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apps\demo_pacman">
+      <UniqueIdentifier>{5CB9C2B4-48B2-E106-71E4-C68B5D3CC112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\apps\demo_pacman\Jeu.h">
+      <Filter>apps\demo_pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\apps\demo_pacman\Pacman.h">
+      <Filter>apps\demo_pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\apps\demo_pacman\Terrain.h">
+      <Filter>apps\demo_pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Grapic.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\apps\demo_pacman\Jeu.cpp">
+      <Filter>apps\demo_pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\apps\demo_pacman\Pacman.cpp">
+      <Filter>apps\demo_pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\apps\demo_pacman\Terrain.cpp">
+      <Filter>apps\demo_pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\apps\demo_pacman\main_pacman.cpp">
+      <Filter>apps\demo_pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Grapic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

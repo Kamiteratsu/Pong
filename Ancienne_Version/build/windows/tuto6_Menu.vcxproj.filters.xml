@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="apps">
+      <UniqueIdentifier>{992B947C-8562-950D-2E4F-7B101A65110F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apps\tutorials">
+      <UniqueIdentifier>{AFB072F9-9B7E-66FF-8412-D725707F4264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Grapic.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\apps\tutorials\tuto6_Menu.cpp">
+      <Filter>apps\tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Grapic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

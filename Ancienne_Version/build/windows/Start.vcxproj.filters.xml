@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="apps">
+      <UniqueIdentifier>{992B947C-8562-950D-2E4F-7B101A65110F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apps\start">
+      <UniqueIdentifier>{96795B1B-8231-9D68-EB38-76C4D70F3859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Grapic.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\apps\start\main_start.cpp">
+      <Filter>apps\start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Grapic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

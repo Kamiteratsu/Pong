@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706D8F6130B89000B816137C7507380071FE82D7B72E7000 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7745EC670E41000051134F84300CAC00BCDEAA296CC1D800 /* main.cpp */; };
+		E3B1252893EE98001848D7BD8DB05600CAD3D9DC7AF5880 /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E009FE4256540C1F1D5DE2C96480053324A4771351C00 /* Grapic.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46E009FE4256540C1F1D5DE2C96480053324A4771351C00 /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Grapic.cpp; path = ../../src/Grapic.cpp; sourceTree = "<group>"; };
+		7745EC670E41000051134F84300CAC00BCDEAA296CC1D800 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../apps/PWorld/main.cpp; sourceTree = "<group>"; };
+		A7784BD33633E00049A313AE42F0940072432682B7DB0000 /* PWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = PWorld; path = PWorld; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB41B2E3ED844800115B199E0496E100159B4A14F4B2DC00 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Grapic.h; path = ../../src/Grapic.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8DC5EA1566150009596366C8F1C1800216008E11EB34E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341538684C446800FBC75C3FBDCF8000C924FCC06CD0A800 /* PWorld */ = {
+			isa = PBXGroup;
+			children = (
+				7745EC670E41000051134F84300CAC00BCDEAA296CC1D800 /* main.cpp */,
+			);
+			name = PWorld;
+			sourceTree = "<group>";
+		};
+		8E1F9F995775D800C4C07E444366E0004A20803959E7A40 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				46E009FE4256540C1F1D5DE2C96480053324A4771351C00 /* Grapic.cpp */,
+				FB41B2E3ED844800115B199E0496E100159B4A14F4B2DC00 /* Grapic.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		B3628B4E3798300015B5C063E3FAF000D420B740A2836800 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				341538684C446800FBC75C3FBDCF8000C924FCC06CD0A800 /* PWorld */,
+			);
+			name = apps;
+			sourceTree = "<group>";
+		};
+		BD70FB4BB203B000279F80398FAEB400F24CFE2663533800 /* PWorld */ = {
+			isa = PBXGroup;
+			children = (
+				B3628B4E3798300015B5C063E3FAF000D420B740A2836800 /* apps */,
+				8E1F9F995775D800C4C07E444366E0004A20803959E7A40 /* src */,
+				DE2FD571A6C938008E134D4D9B3FB000BA17F9BDEA135000 /* Products */,
+			);
+			name = PWorld;
+			sourceTree = "<group>";
+		};
+		DE2FD571A6C938008E134D4D9B3FB000BA17F9BDEA135000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7784BD33633E00049A313AE42F0940072432682B7DB0000 /* PWorld */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF4247F0AE6C5000D3B02EF751B7E0002A40ABA86C88AA00 /* PWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DC5EA0449C98009596366B7D576000216008E00CEE9600 /* Build configuration list for PBXNativeTarget "PWorld" */;
+			buildPhases = (
+				E8DC5EA4C648D0009596366FFF039800216008E48E9AD000 /* Resources */,
+				E8DC5EA52FF5E8009596367068B0B000216008E4F847E800 /* Sources */,
+				E8DC5EA1566150009596366C8F1C1800216008E11EB34E00 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PWorld;
+			productInstallPath = "$(HOME)/bin";
+			productName = PWorld;
+			productReference = A7784BD33633E00049A313AE42F0940072432682B7DB0000 /* PWorld */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "PWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = BD70FB4BB203B000279F80398FAEB400F24CFE2663533800 /* PWorld */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF4247F0AE6C5000D3B02EF751B7E0002A40ABA86C88AA00 /* PWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8DC5EA4C648D0009596366FFF039800216008E48E9AD000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8DC5EA52FF5E8009596367068B0B000216008E4F847E800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706D8F6130B89000B816137C7507380071FE82D7B72E7000 /* main.cpp in Sources */,
+				E3B1252893EE98001848D7BD8DB05600CAD3D9DC7AF5880 /* Grapic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		916E890098BFB80053FD807CEB45E000F985C253BD8A4000 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../..,
+					../../src,
+					../../extern/macosx/SDL2.framework/Versions/A/Headers,
+					../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/Headers,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers,
+				);
+				OBJROOT = obj/debug/PWorld;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					../../extern/macosx/SDL2.framework/Versions/A/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf,
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = ../../bin;
+			};
+			name = debug;
+		};
+		A781052FBBE6D00049ABCD0AC8A37C00724BDFDF3D8DEC00 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../..,
+					../../src,
+					../../extern/macosx/SDL2.framework/Versions/A/Headers,
+					../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/Headers,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers,
+				);
+				OBJROOT = obj/release/PWorld;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					../../extern/macosx/SDL2.framework/Versions/A/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf,
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = ../../bin;
+			};
+			name = release;
+		};
+		CD69DDA770A80000A6B01BA46A0E000032F65AF95DA95C00 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = PWorld;
+			};
+			name = debug;
+		};
+		F20D15378160D80035DAC6586C4CFC00ECAE2EB8B432C800 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = PWorld;
+			};
+			name = release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "PWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E890098BFB80053FD807CEB45E000F985C253BD8A4000 /* debug */,
+				A781052FBBE6D00049ABCD0AC8A37C00724BDFDF3D8DEC00 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		E8DC5EA0449C98009596366B7D576000216008E00CEE9600 /* Build configuration list for PBXNativeTarget "PWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD69DDA770A80000A6B01BA46A0E000032F65AF95DA95C00 /* debug */,
+				F20D15378160D80035DAC6586C4CFC00ECAE2EB8B432C800 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

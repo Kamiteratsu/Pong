@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26EC4BC234778E007605437218BE98003FD5D339CABC4C0 /* Jeu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E1341992E3040022E7B09EC3C6FC003087666DD6DF3200 /* Jeu.cpp */; };
+		44AEDE9FF48ECC00E726CD610473F800438C7E41F0E78400 /* main_pacman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE57F042F4CC98003101063E96B636007BAEBF8DDD4778 /* main_pacman.cpp */; };
+		5BF7DEF62A540000F161D7DEC2A0E800B99BDCF9F0E7E800 /* Pacman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1378CE90D9238C005B2152AC1D7230001509C2075F996A00 /* Pacman.cpp */; };
+		62ADD208C52E1800FA79A778A44B3000B949601880549000 /* Terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9476C61F3CB5D8006850BE1CCF43A0003E127151381C4600 /* Terrain.cpp */; };
+		E3B1252893EE98001848D7BD8DB05600CAD3D9DC7AF5880 /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E009FE4256540C1F1D5DE2C96480053324A4771351C00 /* Grapic.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1378CE90D9238C005B2152AC1D7230001509C2075F996A00 /* Pacman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Pacman.cpp; path = ../../apps/demo_pacman/Pacman.cpp; sourceTree = "<group>"; };
+		46E009FE4256540C1F1D5DE2C96480053324A4771351C00 /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Grapic.cpp; path = ../../src/Grapic.cpp; sourceTree = "<group>"; };
+		49E1341992E3040022E7B09EC3C6FC003087666DD6DF3200 /* Jeu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Jeu.cpp; path = ../../apps/demo_pacman/Jeu.cpp; sourceTree = "<group>"; };
+		643916F1FBD80400222FB5B79EC62A009B41664E2DEC0800 /* demo_Pacman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = demo_Pacman; path = demo_Pacman; sourceTree = BUILT_PRODUCTS_DIR; };
+		9476C61F3CB5D8006850BE1CCF43A0003E127151381C4600 /* Terrain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Terrain.cpp; path = ../../apps/demo_pacman/Terrain.cpp; sourceTree = "<group>"; };
+		A741F71AEFFCF0006090A2D5611F9400FFA601AC16E64000 /* Terrain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Terrain.h; path = ../../apps/demo_pacman/Terrain.h; sourceTree = "<group>"; };
+		E8A8A886F4066000D03A84BE2398280019503227FEA56B00 /* Jeu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Jeu.h; path = ../../apps/demo_pacman/Jeu.h; sourceTree = "<group>"; };
+		EE57F042F4CC98003101063E96B636007BAEBF8DDD4778 /* main_pacman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main_pacman.cpp; path = ../../apps/demo_pacman/main_pacman.cpp; sourceTree = "<group>"; };
+		FB41B2E3ED844800115B199E0496E100159B4A14F4B2DC00 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Grapic.h; path = ../../src/Grapic.h; sourceTree = "<group>"; };
+		FE25B417E991400032BD66ACE352FA002721CC8D1D51FC00 /* Pacman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Pacman.h; path = ../../apps/demo_pacman/Pacman.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68E7FAE0E842000AE1242EAB2D6C000EAB4B04DC50F0800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50FF40F5F79FF40038911D2D2731C40081A6CA97023F0800 /* demo_pacman */ = {
+			isa = PBXGroup;
+			children = (
+				49E1341992E3040022E7B09EC3C6FC003087666DD6DF3200 /* Jeu.cpp */,
+				E8A8A886F4066000D03A84BE2398280019503227FEA56B00 /* Jeu.h */,
+				1378CE90D9238C005B2152AC1D7230001509C2075F996A00 /* Pacman.cpp */,
+				FE25B417E991400032BD66ACE352FA002721CC8D1D51FC00 /* Pacman.h */,
+				9476C61F3CB5D8006850BE1CCF43A0003E127151381C4600 /* Terrain.cpp */,
+				A741F71AEFFCF0006090A2D5611F9400FFA601AC16E64000 /* Terrain.h */,
+				EE57F042F4CC98003101063E96B636007BAEBF8DDD4778 /* main_pacman.cpp */,
+			);
+			name = demo_pacman;
+			sourceTree = "<group>";
+		};
+		8E1F9F995775D800C4C07E444366E0004A20803959E7A40 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				46E009FE4256540C1F1D5DE2C96480053324A4771351C00 /* Grapic.cpp */,
+				FB41B2E3ED844800115B199E0496E100159B4A14F4B2DC00 /* Grapic.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		AD3561E7F5AF9000B7F215F05FC21000F404D799F8ED0000 /* demo_Pacman */ = {
+			isa = PBXGroup;
+			children = (
+				B3628B4E3798300015B5C063E3FAF000D420B740A2836800 /* apps */,
+				8E1F9F995775D800C4C07E444366E0004A20803959E7A40 /* src */,
+				DE2FD571A6C938008E134D4D9B3FB000BA17F9BDEA135000 /* Products */,
+			);
+			name = demo_Pacman;
+			sourceTree = "<group>";
+		};
+		B3628B4E3798300015B5C063E3FAF000D420B740A2836800 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				50FF40F5F79FF40038911D2D2731C40081A6CA97023F0800 /* demo_pacman */,
+			);
+			name = apps;
+			sourceTree = "<group>";
+		};
+		DE2FD571A6C938008E134D4D9B3FB000BA17F9BDEA135000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				643916F1FBD80400222FB5B79EC62A009B41664E2DEC0800 /* demo_Pacman */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29D3C2757E1BF800F185E64CEFA71000BEE386CD9EA83800 /* demo_Pacman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68E7FACFCBF6800AE1242E9A1120800EAB4B04CB34A5000 /* Build configuration list for PBXNativeTarget "demo_Pacman" */;
+			buildPhases = (
+				C68E7FB17E6BA000AE1242EE22BE4000EAB4B05134F68800 /* Resources */,
+				C68E7FB1E818B800AE1242EE8C6B5800EAB4B0519EA3A000 /* Sources */,
+				C68E7FAE0E842000AE1242EAB2D6C000EAB4B04DC50F0800 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demo_Pacman;
+			productInstallPath = "$(HOME)/bin";
+			productName = demo_Pacman;
+			productReference = 643916F1FBD80400222FB5B79EC62A009B41664E2DEC0800 /* demo_Pacman */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "demo_Pacman" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = AD3561E7F5AF9000B7F215F05FC21000F404D799F8ED0000 /* demo_Pacman */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29D3C2757E1BF800F185E64CEFA71000BEE386CD9EA83800 /* demo_Pacman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68E7FB17E6BA000AE1242EE22BE4000EAB4B05134F68800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68E7FB1E818B800AE1242EE8C6B5800EAB4B0519EA3A000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EC4BC234778E007605437218BE98003FD5D339CABC4C0 /* Jeu.cpp in Sources */,
+				5BF7DEF62A540000F161D7DEC2A0E800B99BDCF9F0E7E800 /* Pacman.cpp in Sources */,
+				62ADD208C52E1800FA79A778A44B3000B949601880549000 /* Terrain.cpp in Sources */,
+				44AEDE9FF48ECC00E726CD610473F800438C7E41F0E78400 /* main_pacman.cpp in Sources */,
+				E3B1252893EE98001848D7BD8DB05600CAD3D9DC7AF5880 /* Grapic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6441D04E818AEC0022386F14247912009B4A1FAAB39EF000 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../..,
+					../../src,
+					../../extern/macosx/SDL2.framework/Versions/A/Headers,
+					../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/Headers,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers,
+				);
+				OBJROOT = obj/release/demo_Pacman;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					../../extern/macosx/SDL2.framework/Versions/A/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf,
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = ../../bin;
+			};
+			name = release;
+		};
+		6CED663C88B3B8009ABB842EB0EE70007DEAB7FB988A0000 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = demo_Pacman;
+			};
+			name = debug;
+		};
+		80951772CB48D8005A627A8FED148400C62DD53529C9B000 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = demo_Pacman;
+			};
+			name = release;
+		};
+		A42D201BE4DC50007BAEA512E84D20006AA1F78369B9C400 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../..,
+					../../src,
+					../../extern/macosx/SDL2.framework/Versions/A/Headers,
+					../../extern/macosx/SDL2.framework/Versions/A/Headers/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/Headers,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/Headers,
+				);
+				OBJROOT = obj/debug/demo_Pacman;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					../../extern/macosx/SDL2.framework/Versions/A/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf,
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = ../../bin;
+			};
+			name = debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "demo_Pacman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42D201BE4DC50007BAEA512E84D20006AA1F78369B9C400 /* debug */,
+				6441D04E818AEC0022386F14247912009B4A1FAAB39EF000 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		C68E7FACFCBF6800AE1242E9A1120800EAB4B04CB34A5000 /* Build configuration list for PBXNativeTarget "demo_Pacman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CED663C88B3B8009ABB842EB0EE70007DEAB7FB988A0000 /* debug */,
+				80951772CB48D8005A627A8FED148400C62DD53529C9B000 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
